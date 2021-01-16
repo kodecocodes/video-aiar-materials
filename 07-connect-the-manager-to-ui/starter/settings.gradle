@@ -1,0 +1,5 @@
+include ':inappreview'
+include ':preferences'
+include ':styles'
+include ':app', ':model'
+rootProject.name = 'Emitron'
