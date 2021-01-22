@@ -91,9 +91,9 @@ android {
 dependencies {
   api fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
   implementation project(':model')
-  implementation project(':inappreview')
   implementation project(':styles')
   implementation project(':preferences')
+  implementation project(':inappreview')
 
   implementation "androidx.annotation:annotation:${versions.annotations}"
 

@@ -1,7 +1,7 @@
 package com.raywenderlich.android.inappreview.di
 
-import com.raywenderlich.android.inappreview.manager.InAppReviewManager
-import com.raywenderlich.android.inappreview.manager.InAppReviewManagerImpl
+import com.raywenderlich.android.inappreview.InAppReviewManager
+import com.raywenderlich.android.inappreview.InAppReviewManagerImpl
 import com.raywenderlich.android.inappreview.preferences.InAppReviewPreferences
 import com.raywenderlich.android.inappreview.preferences.InAppReviewPreferencesImpl
 import dagger.Binds
@@ -26,9 +26,6 @@ abstract class InAppReviewBinds {
     inAppReviewPreferencesImpl: InAppReviewPreferencesImpl
   ): InAppReviewPreferences
 
-  /**
-   * Provides In App Review flow wrapper.
-   * */
   @Binds
   @Singleton
   abstract fun bindInAppReviewManager(

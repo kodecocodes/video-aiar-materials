@@ -4,14 +4,13 @@ import android.content.Context
 import android.content.SharedPreferences
 import com.google.android.play.core.review.ReviewManager
 import com.google.android.play.core.review.ReviewManagerFactory
+import com.raywenderlich.android.inappreview.preferences.InAppReviewPreferencesImpl.Companion.KEY_IN_APP_REVIEW_PREFERENCES
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ApplicationComponent
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Singleton
-
-private const val KEY_IN_APP_REVIEW_PREFERENCES = "inAppReviewPreferences"
 
 /**
  * Provides In App Review Android-based dependencies.

@@ -17,6 +17,8 @@ class InAppReviewPreferencesImpl @Inject constructor(
 ) : InAppReviewPreferences {
 
   companion object {
+    const val KEY_IN_APP_REVIEW_PREFERENCES = "inAppReviewPreferences"
+
     private const val KEY_HAS_RATED_APP = "hasRatedApp"
     private const val KEY_CHOSEN_RATE_LATER = "rateLater"
     private const val KEY_RATE_LATER_TIME = "rateLaterTime"

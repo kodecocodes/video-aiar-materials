@@ -1,3 +1,5 @@
+package com.raywenderlich.android.inappreview.di
+
 import com.raywenderlich.android.inappreview.preferences.InAppReviewPreferences
 import com.raywenderlich.android.inappreview.preferences.InAppReviewPreferencesImpl
 import dagger.Binds
